@@ -1,0 +1,71 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section One of the Landing Page */
+.header, .section-one{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: 340px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+button{
+    height: auto;
+    width: 130px;
+    text-decoration: none;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    color: #e5e7eb;
+    border: none;
+    font-weight: bold;
+}
+
+img{
+    height: 200px;
+    width: 350px;
+    flex-shrink: 0;
+}
+
+h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+li,p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+strong{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin: 0px;
+}
+/* End of Section One */
