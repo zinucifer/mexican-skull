@@ -14,11 +14,11 @@
     background-color: #1f2937;
 }
 
-ul{
+.header > ul{
     display: flex;
     list-style: none;
     gap: 15px;
-    margin-left: 340px;
+    margin-left: 400px;
 }
 
 .content{
@@ -28,7 +28,7 @@ ul{
     margin-bottom: 100px;
 }
 
-button{
+.content > button{
     height: auto;
     width: 130px;
     text-decoration: none;
@@ -41,13 +41,15 @@ button{
     font-weight: bold;
 }
 
-img{
-    height: 200px;
-    width: 350px;
+.section-one > img{
+    height: auto;
+    width: 200px;
     flex-shrink: 0;
+    gap: 10px;
+    margin-bottom: 100px;
 }
 
-h2{
+.content > h2{
     font-size: 48px;
     color: #f9faf8;
     margin-bottom: 0px;
@@ -63,9 +65,130 @@ strong{
     color: #f9faf8;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 p{
     margin: 0px;
 }
 /* End of Section One */
+
+/* Section Two of the Landing Page */
+
+.section-two{
+    text-align: center;
+}
+
+.content-two{
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
+.title{
+    padding: 36px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.face > img{
+    height: auto;
+    width: 150px;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.face{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.face > .text{
+    margin-top: 10px;
+    height: auto;
+    width: 150px;
+}
+
+/* End of Section Two */
+
+/* Section Three of the Landing Page */
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: auto;
+    width: 900px;
+    flex: 1;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    height: auto;
+    width: 900px;
+    margin-top: 10px;
+}
+
+/* End of Section Three */
+
+/* Section Four of the Landing Page */
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.blue{
+    background-color: #3882f6;
+    height: 200px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.content-three{
+    color: #f9faf8;
+}
+
+.blue > button{
+    height: auto;
+    width: 130px;
+    text-decoration: none;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    color: #e5e7eb;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.action{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
